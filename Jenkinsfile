@@ -3,7 +3,7 @@
 pipeline {
   agent any 
 		tools {
-		jdk 'JAVA_HOME'
+		jdk 'JAVA'
 		git 'Default'
 	}
     stages {
