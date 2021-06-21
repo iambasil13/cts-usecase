@@ -8,7 +8,7 @@ pipeline {
 		stage('Checkout') {
 			steps {
 			 git(
-				branch: "master",
+				branch: "main",
 				url: "https://github.com/iambasil13/cts-usecase.git"
 				)
 			}
