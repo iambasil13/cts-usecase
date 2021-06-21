@@ -2,7 +2,10 @@
 
 pipeline {
   agent any 
-
+		tools {
+		jdk 'JAVA_HOME'
+		git 'Default'
+	}
     stages {
 	
 		stage('Checkout') {
