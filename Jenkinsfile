@@ -7,7 +7,7 @@ pipeline {
 	
 		stage('Checkout') {
 			steps {
-			 gitclone(
+			 git(
 				branch: "master",
 				url: "https://github.com/iambasil13/cts-usecase.git"
 				)
